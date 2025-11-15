@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Isha Sharma — Frontend Developer</title>
+  <meta name="description" content="Portfolio — Isha Sharma | Frontend Developer. HTML, CSS, JavaScript, responsive, APIs, performance, accessibility." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">IS</div>
+        <div>
+          <h1 class="site-name">Isha Sharma</h1>
+          <div class="site-role">Frontend Developer</div>
+        </div>
+      </div>
+
+      <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav id="mainNav" class="main-nav" aria-label="Main Navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="resume.pdf" class="btn" download>Download Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="home" class="hero section--hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h2 class="headline">Hi, I'm <span class="accent">Isha Sharma</span></h2>
+          <p class="lead">I craft clean, modern and responsive web experiences using HTML, CSS and JavaScript. Currently exploring backend with Node.js &amp; Express to become a stronger full-stack developer.</p>
+          <div class="cta">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="#contact" class="btn ghost">Hire Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <p class="section-lead">I am a self taught web developer who loves turning creative ideas into user-friendly websites. I focus on writing clean, maintainable code and building accessible, responsive UIs. Right now I'm strengthening backend skills (Node.js, Express) to build API-driven apps.</p>
+
+        <div class="cards-grid">
+          <div class="card small-card">
+            <h4>What I do</h4>
+            <p>Build front-end interfaces, integrate APIs, optimize performance and ensure accessibility.</p>
+          </div>
+
+          <div class="card small-card">
+            <h4>Tools & Interests</h4>
+            <p>HTML, CSS, JavaScript, React (basic), Git, GitHub, VS Code, Figma, Responsive Design, REST APIs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skill-scales">
+          <div class="skill-column">
+            <h3>Frontend</h3>
+            <div class="skill">
+              <div class="skill-head"><span>HTML</span><span class="skill-value">95%</span></div>
+              <div class="progress"><div class="progress-fill" data-value="95"></div></div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-head"><span>CSS</span><span class="skill-value">92%</span></div>
+              <div class="progress"><div class="progress-fill" data-value="92"></div></div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-head"><span>JavaScript</span><span class="skill-value">88%</span></div>
+              <div class="progress"><div class="progress-fill" data-value="88"></div></div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-head"><span>React</span><span class="skill-value">75%</span></div>
+              <div class="progress"><div class="progress-fill" data-value="75"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-column">
+            <h3>Backend (Learning)</h3>
+            <div class="skill">
+              <div class="skill-head"><span>Node.js</span><span class="skill-value">60%</span></div>
+              <div class="progress"><div class="progress-fill" data-value="60"></div></div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-head"><span>Express</span><span class="skill-value">55%</span></div>
+              <div class="progress"><div class="progress-fill" data-value="55"></div></div>
+            </div>
+
+            <h3 style="margin-top:18px">Tools & Others</h3>
+            <div class="tools-grid">
+              <span class="tool">Git</span>
+              <span class="tool">GitHub</span>
+              <span class="tool">VS Code</span>
+              <span class="tool">Figma</span>
+              <span class="tool">Responsive Design</span>
+              <span class="tool">API Integration</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+       <div class="projects-grid">
+  <article class="project card">
+    <h3>F1 Insights Hub</h3>
+    <p class="muted">Responsive dashboard with driver statistics and circuit info. Built with vanilla JS, Fetch API and CSS Grid. Hosted on GitHub Pages.</p>
+    <div class="proj-actions">
+      <a class="btn small" href="https://ishasharma11111.github.io/F1-insights-hub/" target="_blank" rel="noopener">Live</a>
+      <a class="btn small ghost" href="https://github.com/ishasharma11111" target="_blank" rel="noopener">Source</a>
+    </div>
+  </article>
+
+  <article class="project card">
+    <h3>Portfolio (This site)</h3>
+    <p class="muted">Single-page responsive portfolio showing skills, projects and contact form. Built with HTML/CSS/JS.</p>
+    <div class="proj-actions">
+      <a class="btn small" href="https://ishasharma11111.github.io/My-Portfolio/" target="_blank" rel="noopener">Live</a>
+      <a class="btn small ghost" href="https://github.com/ishasharma11111" target="_blank" rel="noopener">Source</a>
+    </div>
+  </article>
+
+  <article class="project card">
+    <h3>Luminé Cosmetics – Beauty Landing Page</h3>
+    <p class="muted">A modern, elegant beauty brand landing page built using HTML, CSS, and JavaScript. Focused on minimal design, brand storytelling, and responsive layout.</p>
+    <div class="proj-actions">
+      <a class="btn small" href="https://ishasharma11111.github.io/Business-Landing-Page/" target="_blank">Live</a>
+      <a class="btn small ghost" href="https://github.com/ishasharma11111/Business-Landing-Page" target="_blank">Source</a>
+    </div>
+  </article>
+
+  <!-- NEW PROJECT: Twitter/X Clone -->
+  <article class="project card">
+    <h3>Twitter/X Clone</h3>
+    <p class="muted">A fully responsive Twitter-style microblog built with HTML, CSS, and JavaScript. Features tweet posting, likes, replies, and a clean, modern UI.</p>
+    <div class="proj-actions">
+      <a class="btn small" href="https://ishasharma11111.github.io/Home-X/" target="_blank" rel="noopener">Live</a>
+      <a class="btn small ghost" href="https://github.com/ishasharma11111/Home-X.git" target="_blank" rel="noopener">Source</a>
+    </div>
+  </article>
+</div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-lead">Let's collaborate — I’m open to freelance work and new opportunities.</p>
+
+        <div class="contact-grid">
+          <div class="card contact-card">
+            <h4>Reach out</h4>
+            <p class="muted"><strong>Email:</strong> <a href="ishasharma9768@gmail.com">ishasharma9768@gmail.com</a></p>
+            
+            <div class="socials-inline">
+              <a href="https://github.com/ishasharma11111" target="_blank">GitHub</a>
+              <a href="#" target="_blank">LinkedIn</a>
+              <a href="#" target="_blank">Instagram</a>
+            </div>
+          </div>
+
+          <form id="contactForm" class="card contact-form" aria-label="Contact form">
+            <label class="sr-only" for="name">Your name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required>
+
+            <label class="sr-only" for="emailField">Your email</label>
+            <input id="emailField" name="email" type="email" placeholder="you@domain.com" required>
+
+            <label class="sr-only" for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell me about your project" rows="5" required></textarea>
+
+            <div class="form-row">
+              <button type="submit" class="btn">Send Message</button>
+              
+               <a href="resume.pdf" class="btn ghost" download="Isha_Sharma_Resume.pdf">Download CV</a>
+            </div>
+            <div id="formStatus" class="muted small">This demo uses client-side submission. Replace with a real API when ready.</div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="muted">© <span id="year"></span> Isha Sharma — Built with HTML, CSS &amp; JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
