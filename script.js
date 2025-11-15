@@ -97,3 +97,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+document.getElementById('downloadCV').addEventListener('click', function() {
+    const link = document.createElement('a');
+    link.href = 'resume.pdf';
+    link.download = 'Isha_Sharma_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+});
